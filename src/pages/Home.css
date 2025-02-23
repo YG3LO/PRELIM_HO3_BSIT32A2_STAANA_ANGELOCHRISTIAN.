@@ -1,0 +1,55 @@
+/* Modern Glassmorphism Home Page Design */
+.home-container {
+  text-align: center;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.1); /* Light Glass Effect */
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 50px auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Smooth hover effect */
+.home-container:hover {
+  transform: scale(1.02);
+}
+
+h1 {
+  color: #222;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+/* Subtitle Text */
+p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Modern Button */
+.home-button {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.3);
+}
+
+/* Button Hover Effect */
+.home-button:hover {
+  background: linear-gradient(135deg, #0056b3, #0091ff);
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 15px rgba(0, 91, 187, 0.5);
+}
